@@ -1,0 +1,38 @@
+{
+  "name": "blocg-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Gabriel Asakawa's Blog API",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.4.1",
+    "strapi-admin": "3.4.1",
+    "strapi-connector-mongoose": "3.4.1",
+    "strapi-plugin-content-manager": "3.4.1",
+    "strapi-plugin-content-type-builder": "3.4.1",
+    "strapi-plugin-email": "3.4.1",
+    "strapi-plugin-graphql": "3.4.1",
+    "strapi-plugin-upload": "3.4.1",
+    "strapi-plugin-users-permissions": "3.4.1",
+    "strapi-provider-email-sendgrid": "^3.4.1",
+    "strapi-provider-upload-aws-s3": "^3.4.1",
+    "strapi-utils": "3.4.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "a83d4301-3cbd-4e36-807b-89e88cb0b6cd"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
