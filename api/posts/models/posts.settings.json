@@ -12,7 +12,8 @@
   },
   "attributes": {
     "slug": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "content": {
       "type": "richtext"
